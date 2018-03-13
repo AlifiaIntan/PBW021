@@ -79,6 +79,7 @@
                                                 
                                                 <li><a href="#testimonial">KATA MEREKA</a></li>
                                                 <li><a href="#footer">KONTAK</a></li>
+                                                <li><a href="Login.php">ADMIN</a></li>
                                             </ul>
 
 
@@ -502,7 +503,7 @@
                                 <div class="contact_contant">
 
                                     <div class="col-sm-6">
-                                        <h4>GIVE US A GOOD NEWS</h4>
+                                        
                                         <div class="single_contant_left">
                                             <!--<form action="#" id="formid">
                                                 <!--<div class="col-lg-8 col-md-8 col-sm-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1">
@@ -532,9 +533,9 @@
                                             <div class="container">
             <div class="row">
                 <div class="col-md-6 col-md-offset-3">
-                    <h2>Contact Us</h2> Got a question ? Feedback? Awesome! 
+                    <h2>SUGGESTIONS</h2> Got a question ? Feedback? Awesome! 
                     <p> Send your message in the form below and we will get back to you as early as possible. </p>
-                    <form role="form" method="post" id="reused_form" >
+                    <form method="post" action="add.php" >
                         <div class="form-group">
                             <label for="name"> Name:</label>
                             <input type="text" class="form-control" id="name" name="name" required maxlength="50">
@@ -558,7 +559,7 @@
                                 <input type="text" class="form-control" required id="captcha" name="captcha" >
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-lg btn-success pull-right" id="btnContactUs">Post It! &rarr;</button>
+                        <button name="submit" type="submit">Post It!</button>
                     </form>
                     <div id="success_message" style="width:100%; height:100%; display:none; "> <h3>Sent your message successfully!</h3> </div>
                     <div id="error_message" style="width:100%; height:100%; display:none; "> <h3>Error</h3> Sorry there was an error sending your form. </div>
@@ -572,7 +573,6 @@
                                     <div class="col-sm-6">
 
                                         <div class="main_clinetslogo">
-                                            <h4>OUR HAPPY CLIENT</h4>
                                             <div class="row">
                                                 <div class="col-sm-6 col-xs-6"> 
                                                     <a href=""><img src="assets/images/clogo1.png" alt="" /></a>
