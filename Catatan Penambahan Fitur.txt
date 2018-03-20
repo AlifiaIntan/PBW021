@@ -3,6 +3,6 @@ NRP: 5216100021
 
 Fitur yang ditambahkan:
  1. CRUD
-    Ada menu login admin dengan username = "admin" dan password "admin" dimana admin tersebut dapat mengupdate/edit, menghapus, dan     menampilkan semua data kritik dan saran yang ada di database, dengan penambahan config.php, add.php, crud.php, delete.php, edit.php
+    Ada menu login admin dengan username = "admin" dan password "admin" dimana admin tersebut dapat mengupdate/edit, menghapus, dan menampilkan semua data kritik dan saran yang ada di database.
 
- 2. Meng-post kritik dan saran pada index.php menggunakan captcha dengan menambahkan captcha.php untuk menampilkan file captcha tersebut
+ 2. Meng-post kritik dan saran pada index.php menggunakan captcha
